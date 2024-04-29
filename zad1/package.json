@@ -1,0 +1,22 @@
+{
+    "name": "task1",
+    "version": "1.0.0",
+    "description": "Express.js application for managing books and authors",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "keywords": [
+      "express",
+      "ejs",
+      "books",
+      "authors"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "ejs": "^3.1.6",
+      "express": "^4.17.1"
+    }
+  }
+  

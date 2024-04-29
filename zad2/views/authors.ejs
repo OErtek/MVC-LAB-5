@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/navigation') %>
+    <title><%= pageTitle %></title>
+</head>
+<body>
+    <h1>Authors</h1>
+    <ul>
+        <% if (authors) { %>
+            <% authors.forEach(function(author) { %>
+                <li><%= author.name %></li>
+            <% }); %>
+        <% } else { %>
+            <li>No authors found</li>
+        <% } %>
+    </ul>
+</body>
+</html>

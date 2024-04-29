@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/navigation') %>
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Book Details</h1>
+    <div>
+        <p>Title: <%= book.title %></p>
+        <p>Year: <%= book.year %></p>
+        <p>Author ID: <%= book.authorId %></p>
+    </div>
+</body>
+</html>
